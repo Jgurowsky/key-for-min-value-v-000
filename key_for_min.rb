@@ -3,7 +3,7 @@
 name_hash = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
-  array = name_hash.collect{|key, value|}
+  array = name_hash.collect{|key, value| key value}
   array
 end
 
