@@ -7,4 +7,4 @@ def key_for_min_value(name_hash)
   array.sort
 end
 
-key_for_min_value(name_hash)
+#key_for_min_value(name_hash)
